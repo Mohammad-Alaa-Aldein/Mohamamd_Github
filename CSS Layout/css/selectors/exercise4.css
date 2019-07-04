@@ -1,0 +1,25 @@
+/* this is for you to complete */
+
+p a{
+	color: green;
+}
+
+ul a{
+	color: red;
+}
+
+ul ul li{
+	color:blue;
+}
+ul ul ul {
+	list-style-type: none;
+}
+
+ul:first-line{
+	font-weight: bold;
+}
+
+ div:nth-child(2) a{
+	background-color: yellow;
+	color: purple;
+}

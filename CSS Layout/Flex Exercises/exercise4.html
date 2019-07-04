@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercise 3</title>
+
+	<style>
+		
+		body{
+			background-color: grey;
+		}
+
+		img{
+			width: 37px;
+			height: 37px;
+			margin-top: 16px;
+			}
+
+		p{
+			background-color: white;
+			height: auto;
+			width: auto;
+		}
+
+		.parent{
+			width: 50%;
+			display: flex;
+			flex-direction: column;
+			margin-left: 200px;
+			 
+		}
+		.con1, .con2, .con3, .con4, .con5{
+			display: flex;
+			flex-direction: row;
+
+		}
+
+		.con3, .con5{
+			align-items: flex-end;
+			flex-direction: row-reverse;
+		}
+		.con3 img{
+			margin-top: 13px;
+		}
+
+		span{
+			font-size: 12px;
+			color: grey;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="parent">
+		
+		<div class="con1">
+			<img src="cat1.jpg">
+			<p>Hello! <br>
+			<span>6 minute ago</span>
+			</p>
+		</div>
+
+		<div class="con2">
+			<img src="cat1.jpg">
+			<p>What is going on here? <br>
+			<span>5 minutes ago</span>
+			</p>
+		</div>
+
+		<div class="con3">
+			<img src="cat2.jpeg">
+			<p>I have no idea <br>
+			<span>4 minutes ago</span></p>
+		</div>
+
+		<div class="con4">
+			<img src="cat1.jpg">
+			<p>I have a neat idea. Maybe I should explain it to you in detail? <br>
+			<span>3 minutes ago</span></p>
+		</div>
+
+		<div class="con5">
+			<img src="cat3.jpg">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <br>
+			<span>2 minutes ago</span>
+			</p>
+		</div>
+
+
+
+	</div>
+
+</body>
+</html>

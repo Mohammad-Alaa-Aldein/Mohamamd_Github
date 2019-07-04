@@ -1,0 +1,31 @@
+body{
+            background-color:#f0f8ff;
+        }
+
+        div{
+            background-color: white;
+            width:  75%;
+            min-width: 500px;
+            border:1px solid #333333;
+            margin-bottom: 1em;
+            padding: 0.5em; 
+        }
+
+        .hl1{
+        	background-color: #fdca96;
+        	padding-right:5px;
+        	padding-left: 5px;
+        	font-weight: bold;
+        }
+
+        .hl2{
+        	background-color: #fdfd96;
+        	font-weight: bold;
+            padding-right:5px;
+            padding-left: 5px;
+        }
+
+        #alert{
+            border-style: dashed;
+            color:red;
+        }
