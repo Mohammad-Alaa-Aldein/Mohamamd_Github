@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise #6: Simple form</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <div class="container"> 
+
+<form class="col-md-8"  action="#">
+    <div class="form-group">
+        <label for="first_name" class="font-weight-bold" >First name:</label>
+        <input class="form-control" type="text" name="first_name" >
+    </div>
+    <div class="form-group"> 
+        <label class="font-weight-bold" for="last_name">Last name:</label>
+        <input type="text" name="last_name" class="form-control" />
+    </div>
+    <div class="custom-control custom-radio custom-control-inline">
+        <label class="custom-control-label"><input class="custom-control-input" type="radio" name="gender" value="male"/>male</label>
+    </div>
+    <div class="custom-control custom-radio custom-control-inline">
+        <label class="custom-control-label"><input class="custom-control-input" type="radio" name="gender" value="female"/>female</label>
+    </div>
+    <br><br>
+    <div >
+        <label class="font-weight-bold" for="birth_date">Date of birth:</label>
+        <input class="form-control" type="date" name="birth_date" id="birth_date"/>
+    </div>
+    <br>
+    <input class="btn btn-primary" type="submit" value="Add"/>
+
+</div>
+</form>
+</body>
+</html>
