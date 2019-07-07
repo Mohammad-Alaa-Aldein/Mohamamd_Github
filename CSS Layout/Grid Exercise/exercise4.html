@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercise #4</title>
+
+	<style>
+		body{
+		}
+
+		.container{
+			display: grid;
+			grid-template-columns: repeat(1fr 12);
+			grid-template-rows: repeat(1fr 12);
+			height: 800px;	
+			grid-gap: 10px;	
+
+		}
+
+		.top{
+			background-color: yellow;
+			grid-area: 1/1/1/12;
+			
+		}
+
+		.left{
+			background-color: yellow;
+			grid-area: 2/1/11/3;
+	
+		}
+
+		.main{
+			background-color: yellow;
+			grid-area: 2/3/10/10;
+
+		}
+
+		.right{
+			background-color: yellow;
+			grid-area: 2/10/10/12;
+		}
+
+		.bottom{
+			background-color: yellow;
+			grid-area: 10/3/11/12;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<div class="container">
+
+		<header class="top"></header>
+
+		<nav class="left"></nav>
+
+		<article class="main"></article>
+
+		<aside class="right"></aside>
+
+		<footer class="bottom"></footer>
+
+	</div>
+
+</body>
+</html>
